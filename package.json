@@ -1,0 +1,23 @@
+{
+  "name": "coldstone",
+  "version": "1.0.0",
+  "description": "coldstone creamery, tailwind, design",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwind -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "keywords": [
+    "coldstone",
+    "ice",
+    "cream",
+    "creamery"
+  ],
+  "author": "Adekunle Aderohunbi",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "react-icons": "^4.7.1"
+  }
+}
