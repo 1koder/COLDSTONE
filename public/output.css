@@ -682,6 +682,10 @@ video {
   background-color: rgb(14 116 144 / var(--tw-bg-opacity));
 }
 
+.bg-inherit {
+  background-color: inherit;
+}
+
 .bg-gradient-to-bl {
   background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
 }
@@ -971,10 +975,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mb-12 {
-    margin-bottom: 3rem;
-  }
-
   .lg\:flex {
     display: flex;
   }
@@ -991,12 +991,8 @@ video {
     height: 10rem;
   }
 
-  .lg\:h-20 {
-    height: 5rem;
-  }
-
-  .lg\:h-0 {
-    height: 0px;
+  .lg\:h-screen {
+    height: 100vh;
   }
 
   .lg\:grid-cols-3 {
